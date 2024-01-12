@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5QDiWtQpjeuPTKfQ451t2GlUG1MMY8VNN+Qsdf1ZC2lgdYxmTMkuGiD6v2OyhUa3E5waCh8r6sLQQKtjY5Y6hg==",
+  "success": true,
+  "projectFilePath": "D:\\SSIS Project\\DMSAPiProject\\DMS.Utility\\DMS.Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LPL\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

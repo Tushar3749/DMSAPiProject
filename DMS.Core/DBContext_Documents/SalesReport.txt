@@ -1,0 +1,8 @@
+﻿
+Scaffold-DbContext "Data Source=192.168.42.6\TEST_DEPO;Initial Catalog=SD_DMS;User ID=sa;Password=3Sb2Cm}5Aj5Kt8;Integrated Security=false;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -Context SalesReportContext  -OutputDir Models/Report  -StartupProject DMS.Core -f
+
+
+
+ 
+
+

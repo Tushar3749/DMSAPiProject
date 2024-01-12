@@ -1,0 +1,12 @@
+C:\PROJECT\DMS-API\DMS.Utility\bin\Debug\net5.0\DMS.Utility.deps.json
+C:\PROJECT\DMS-API\DMS.Utility\bin\Debug\net5.0\DMS.Utility.dll
+C:\PROJECT\DMS-API\DMS.Utility\bin\Debug\net5.0\DMS.Utility.pdb
+C:\PROJECT\DMS-API\DMS.Utility\obj\Debug\net5.0\DMS.Utility.csproj.AssemblyReference.cache
+C:\PROJECT\DMS-API\DMS.Utility\obj\Debug\net5.0\DMS.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJECT\DMS-API\DMS.Utility\obj\Debug\net5.0\DMS.Utility.AssemblyInfoInputs.cache
+C:\PROJECT\DMS-API\DMS.Utility\obj\Debug\net5.0\DMS.Utility.AssemblyInfo.cs
+C:\PROJECT\DMS-API\DMS.Utility\obj\Debug\net5.0\DMS.Utility.csproj.CoreCompileInputs.cache
+C:\PROJECT\DMS-API\DMS.Utility\obj\Debug\net5.0\DMS.Utility.dll
+C:\PROJECT\DMS-API\DMS.Utility\obj\Debug\net5.0\refint\DMS.Utility.dll
+C:\PROJECT\DMS-API\DMS.Utility\obj\Debug\net5.0\DMS.Utility.pdb
+C:\PROJECT\DMS-API\DMS.Utility\obj\Debug\net5.0\ref\DMS.Utility.dll

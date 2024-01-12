@@ -1,0 +1,14 @@
+﻿Scaffold-DbContext "Data Source=192.168.42.6\test_depo;Initial Catalog=SD_DMS;User ID=sa;Password=3Sb2Cm}5Aj5Kt8;Integrated Security=false;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer   -Context SalesOrderContext -OutputDir Models/SalesOrder   -Tables Orders, OrdersDetail -force    -StartupProject DMS
+
+public virtual DbSet<ProductsDto> ProductsDto { get; set; }
+public virtual DbSet<ChemistsDto> ChemistsDto { get; set; }
+public virtual DbSet<SalesOrderDto> SalesOrderDto { get; set; }
+public virtual DbSet<SalesOrderProductDto> SalesOrderProductDto { get; set; }
+public virtual DbSet<OrderTodayStatusDto> OrderTodayStatusDto { get; set; }
+public virtual DbSet<InvoicePendingOrderDetail> InvoicePendingOrderDetail { get; set; }
+public virtual DbSet<InvoicePendingOrdersDto> InvoicePendingOrdersDto { get; set; }
+
+
+ public virtual DbSet<TerritoryChemistDto> TerritoryChemistDto { get; set; }
+
+  public virtual DbSet<MPOByTerritoryDto> MPOByTerritoryDto { get; set; }

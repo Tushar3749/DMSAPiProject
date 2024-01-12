@@ -1,0 +1,21 @@
+﻿OLD ONE => Scaffold-DbContext "Data Source=192.168.42.6\TEST_DEPO;Initial Catalog=FM_DMS;User ID=sa;Password=3Sb2Cm}5Aj5Kt8;Integrated Security=false;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -Context AccountsContext  -OutputDir Models/Accounts -Tables  Deposit,DepositDetail,DepositType,MoneyReceipt -f
+
+Scaffold-DbContext "Data Source=192.168.42.6\TEST_DEPO;Initial Catalog=FM_DMS;User ID=sa;Password=3Sb2Cm}5Aj5Kt8;Integrated Security=false;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -Context AccountsContext  -OutputDir Models/Accounts -Tables  Deposit,DepositDetail,DepositType,MoneyReceipt,Bank -f
+
+Scaffold-DbContext "Data Source=192.168.30.40;Initial Catalog=Inventory_DMS;User ID=sa;Password=mW{A7&oX]15`$kX?4@6;Integrated Security=false;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -Context InventoryContext  -OutputDir Models/Inventory -Tables  IssueType,StockIssue,StockIssueDetail,StockReceive,StockReceiveDetail,DepotAvailableStock  -f
+
+
+
+
+
+private readonly IConfiguration config;
+
+public AccountsContext(IConfiguration config)
+{
+    this.config = config;
+}
+
+if (!optionsBuilder.IsConfigured)
+{
+    optionsBuilder.UseSqlServer(config.GetConnectionString("Accounts"));
+}

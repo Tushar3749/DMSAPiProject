@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation" Version="10.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="NLog" Version="4.7.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DMS.Core\DMS.Core.csproj" />
+    <ProjectReference Include="..\DMS.Data\DMS.Data.csproj" />
+    <ProjectReference Include="..\DMS.Utility\DMS.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
